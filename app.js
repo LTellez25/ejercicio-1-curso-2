@@ -15,8 +15,8 @@ function alerta(){
 }
 
 function suma(){
-    let numero1= Number(prompt("Digite el primer número"));
-    let numero2= Number(prompt("Digite el segundo número"));
+    let numero1= parseInt(prompt("Digite el primer número"));
+    let numero2= parseInt(prompt("Digite el segundo número"));
     let sum = numero1 + numero2;
     alert(`La suma es ${sum}`);
 }
